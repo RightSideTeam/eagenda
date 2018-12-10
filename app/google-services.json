@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "473867108815",
+    "firebase_url": "https://e-agenda-668d0.firebaseio.com",
+    "project_id": "e-agenda-668d0",
+    "storage_bucket": "e-agenda-668d0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:473867108815:android:f9948bfe2811d47f",
+        "android_client_info": {
+          "package_name": "com.rightside.e_agenda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "473867108815-v2n3hm5c3vnpodt99ec8p65m0c9msjgo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rightside.e_agenda",
+            "certificate_hash": "3aca7f6787d12bc43a587a8f26e3ca4550bcbba3"
+          }
+        },
+        {
+          "client_id": "473867108815-q10mae4c3378tjdlaeotes9rgdfq7pm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYurXKXc5--tkSqoZqiXrE8xoqRKy_CEM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "473867108815-q10mae4c3378tjdlaeotes9rgdfq7pm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

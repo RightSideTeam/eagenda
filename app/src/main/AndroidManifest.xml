@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rightside.e_agenda">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_foreground"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".view.SplashScreenActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".view.CidadeActivity"
+            android:screenOrientation="portrait"/>
+
+
+        <activity
+            android:name=".natividadeView.SegmentosNatActivity"
+            android:label="Segmentos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.lanchonete.LanchoneteNatActivity"
+            android:label="Lanchonetes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.pizzaria.PizzariaNatActivity"
+            android:label="Pizzarias"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.farmacia.FarmaciaNatActivity"
+            android:label="Farmácias"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.lanchonete.CadastroLanchoneteNatActivity"
+            android:label="Cadastre sua empresa"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.lanchonete.DetalhesLanchoneteNatActivity"
+            android:label="Detalhes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.GerenciaSegmentosNatActivity"
+            android:label="Gerenciamento"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.gerenciamentoLanchonete.GerenciaLancNatActivity"
+            android:label="Gerenciar Lanchonetes"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.gerenciamentoLanchonete.GerenciaDetLancNatActivity"
+            android:label="Detalhes Gerenciamento"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".natividadeView.LoginAdminActivity"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"/>
+        <activity
+            android:name=".view.ContateActivity"
+            android:label="Contate-nos"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme"
+            >
+
+        </activity>
+    </application>
+
+</manifest>

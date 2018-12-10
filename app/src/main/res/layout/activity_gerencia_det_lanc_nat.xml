@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".natividadeView.gerenciamentoLanchonete.GerenciaDetLancNatActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        >
+
+        <include layout="@layout/toolbar" />
+
+    </android.support.design.widget.AppBarLayout>
+
+
+    <EditText
+        android:id="@+id/edit_gerencia_nome_lanchonete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Nome" />
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="Endereço da Lanchonete"
+            android:textSize="20sp"
+            android:inputType="textCapSentences"
+            android:id="@+id/edit_gerencia_local_lanchonete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="Hora da Lanchonete"
+            android:textSize="20sp"
+            android:inputType="textCapSentences"
+            android:id="@+id/edit_gerencia_hora_lanchonete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="Telelfone da Lanchonete"
+            android:textSize="20sp"
+            android:inputType="textCapSentences"
+            android:id="@+id/edit_gerencia_telefone_lanchonete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="Wpp da Lanchonete"
+            android:textSize="20sp"
+            android:inputType="textCapSentences"
+            android:id="@+id/edit_gerencia_wpp_lanchonete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="5dp"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:hint="Email do responsável "
+            android:textSize="20sp"
+            android:inputType="textCapSentences"
+            android:id="@+id/edit_gerencia_email_lanchonete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/buttonAceitar"
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_gravity="center"
+            android:layout_height="40dp"
+            android:background="@drawable/button_aceitar"
+            android:text="Aceitar"
+            android:textSize="15sp"
+            android:textColor="@color/Branco" />
+
+
+
+</LinearLayout>

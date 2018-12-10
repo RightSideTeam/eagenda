@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5F0F8A</color>
+    <color name="colorPrimaryDark">#3d0b58</color>
+    <color name="colorAccent">#5F0F8A</color>
+    <color name="Branco">#ffffff</color>
+    <color name="Preto">#000</color>
+    <color name="Cinza">#37c6c4c4</color>
+    <color name="CinzaEscuro">#6b6a6a</color>
+    <color name="VerdeButton">#468e57</color>
+
+</resources>

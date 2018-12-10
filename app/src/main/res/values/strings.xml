@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">e-Agenda</string>
+    <string name="action_nosconheca">Nos conheça</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="confirmar">Confirmar</string>
+    <string name="shared_config">sharedConfig</string>
+    <string name="determine_sua_cidade">Determine sua cidade:</string>
+    <string name="sua_empresa_no_app">Sua empresa no APP</string>
+    <string name="id">id</string>
+
+
+    <string-array name="spinnernomecidades">
+        <item>Natividade</item>
+        <item>Aperibé</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_gerencia_det_lanc_nat">GerenciaDetLancNatActivity</string>
+</resources>
